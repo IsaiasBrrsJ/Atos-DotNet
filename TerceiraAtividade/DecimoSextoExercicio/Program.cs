@@ -9,22 +9,25 @@
                 (N*3; N*3*3; N*3*3*3; etc).
              
              */
-
+            
             int num = 0;
+            int aux = 0;
 
             do {
+                Console.Write("Digite um numero menor ou igual a 50: ");
+                 num = int.Parse(Console.ReadLine());
 
-                Console.Write("Digite um número menor ou igual a 50: ");
-                num = int.Parse(Console.ReadLine());
+            }while(num > 50);
 
-            } while (num > 50);
+            while(num < 250) {
 
-            while (num < 250) {
-
-                Console.WriteLine(num *= 3);
+                aux = num;
+                num *= 3;
             }
-        
-          Console.ReadKey();
+
+            Console.WriteLine(aux);
+
+            Console.ReadKey();
         }
     }
 }
