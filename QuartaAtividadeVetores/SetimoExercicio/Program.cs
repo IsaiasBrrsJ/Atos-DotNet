@@ -10,36 +10,29 @@
              */
 
 
-            // falta concluir
+
             int[] vet = new int[10];
 
             for (int i = 0; i < 10; i++) {
-                Console.Write("Digite o {0} valor: ", i + 1);
+                Console.Write("digite o {0} valor: ", i + 1);
                 vet[i] = int.Parse(Console.ReadLine());
             }
 
-            int pos = 0;
-            int pos2 = 0;
             for (int i = 0; i < 10; i++) {
 
-                if ((i + 1) < 10) {
+                if (vet[i] % 2 == 0) {
 
-                    if (vet[i + 1] % 2 == 0) {
-
-                        Console.WriteLine(i);
-                        pos = vet[i + 1];
-                        pos2 = vet[i];
-                        vet[i] = pos;
-                        vet[i + 1] = pos2;
-
-                    }
+                    Console.Write("{0} |", vet[i]);
                 }
-            
             }
 
+
             for (int i = 0; i < 10; i++) {
 
-                Console.Write("{0} |", vet[i]);
+                if (vet[i] % 2 != 0) {
+
+                    Console.Write("{0} |", vet[i]);
+                }
             }
 
 
