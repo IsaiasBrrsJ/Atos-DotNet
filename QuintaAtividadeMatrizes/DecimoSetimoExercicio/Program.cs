@@ -6,37 +6,38 @@
             //linha onde se encontra o 
             //maior elemento da matriz. Escreva também a linha e a coluna onde foi encontrado.
 
-            int[,] matriz = new int[2, 2];
-            int posLinhaMenor = -1;
-            int maiorElemento = 0;
-            string posOndeFoiEncontrador = "";
-            for (int i = 0; i < matriz.GetLength(0); i++) {
-                for (int j = 0; j < matriz.GetLength(1); j++) {
+            int[,] matrizA = new int[10, 10];
+            int minimax = 0;
+            int coluna = 0;
+            string resultado = "";
 
-                    Console.Write($"Digite [{i},{j}]: ");
-                    matriz[i, j] = int.Parse(Console.ReadLine());
+            for (int i = 0; i < matrizA.GetLength(0); i++) {
 
-                    if (posLinhaMenor == -1) {
-                        posLinhaMenor = i;
-                    }
-                    else {
-                        if (posLinhaMenor < matriz[i, j])
-                            posLinhaMenor = i;
-                    }
+                for (int j = 0; j < matrizA.GetLength(1); j++) {
+                    Console.Write($"Digite: [{i},{j}]: ");
+                    matrizA[i, j] = int.Parse(Console.ReadLine());
 
+                    if (matrizA[i, j] > minimax) {
 
-                    if (matriz[i, j] > maiorElemento) {
-                        posOndeFoiEncontrador = $"O maior foi encontrado na linha {i} Coluna {j}";
+                        minimax = matrizA[i, j];
+                        coluna = j;
                     }
                 }
-
-              
             }
 
-            Console.WriteLine("Menor número encontrado está na linha: " + posLinhaMenor);
-            Console.WriteLine();
-            Console.WriteLine("\n"+posOndeFoiEncontrador);
+            for (int i = 0; i < matrizA.GetLength(0); i++) {
+                for (int j = 0; j < matrizA.GetLength(1); j++) {
+                    if (j == coluna && matrizA[i, j] < minimax) {
+                        minimax = matrizA[i, j];
+                        resultado = $"\nMenor elemento {minimax} se encontra na Linha {i}, Coluna: {j}";
+                    }
+                }
+            }
+
+            Console.WriteLine(resultado);
             Console.ReadKey();
+
+
         }
     }
 }
