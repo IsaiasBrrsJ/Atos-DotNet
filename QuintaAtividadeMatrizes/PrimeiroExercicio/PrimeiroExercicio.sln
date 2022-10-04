@@ -21,9 +21,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OitavoExercicio", "..\Oitav
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecimoExercicio", "..\DecimoExercicio\DecimoExercicio.csproj", "{EAE98BE0-CED5-4933-BE23-E436A8C36EF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimoPrimeiroExercicio", "..\DecimoPrimeiroExercicio\DecimoPrimeiroExercicio.csproj", "{88850AB7-8A1C-4B5C-B96A-CD3A158662F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecimoPrimeiroExercicio", "..\DecimoPrimeiroExercicio\DecimoPrimeiroExercicio.csproj", "{88850AB7-8A1C-4B5C-B96A-CD3A158662F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimoSegundoExercicio", "..\DecimoSegundoExercicio\DecimoSegundoExercicio.csproj", "{CCC91678-4280-42E4-A87C-7AC524AB71E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecimoSegundoExercicio", "..\DecimoSegundoExercicio\DecimoSegundoExercicio.csproj", "{CCC91678-4280-42E4-A87C-7AC524AB71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimoTerceiroExercicio", "..\DecimoTerceiroExercicio\DecimoTerceiroExercicio.csproj", "{F287CFF1-A2BF-4547-A078-4272A1592EE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimoQuartoExercicio", "..\DecimoQuartoExercicio\DecimoQuartoExercicio.csproj", "{1BA45C40-56B8-4BF1-8EED-27FCFAA183C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimoQuintoExercicio", "..\DecimoQuintoExercicio\DecimoQuintoExercicio.csproj", "{AF027BC6-267F-4151-83FA-3AD2201BFDC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimoSextoExercicio", "..\DecimoSextoExercicio\DecimoSextoExercicio.csproj", "{E2CEFC39-E270-4E20-AAEB-667BEB82A640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimoSetimoExercicio", "..\DecimoSetimoExercicio\DecimoSetimoExercicio.csproj", "{6975F323-883F-4C23-B27F-B1A99DE2D640}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +85,26 @@ Global
 		{CCC91678-4280-42E4-A87C-7AC524AB71E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCC91678-4280-42E4-A87C-7AC524AB71E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCC91678-4280-42E4-A87C-7AC524AB71E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F287CFF1-A2BF-4547-A078-4272A1592EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F287CFF1-A2BF-4547-A078-4272A1592EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F287CFF1-A2BF-4547-A078-4272A1592EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F287CFF1-A2BF-4547-A078-4272A1592EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA45C40-56B8-4BF1-8EED-27FCFAA183C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA45C40-56B8-4BF1-8EED-27FCFAA183C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA45C40-56B8-4BF1-8EED-27FCFAA183C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA45C40-56B8-4BF1-8EED-27FCFAA183C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF027BC6-267F-4151-83FA-3AD2201BFDC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF027BC6-267F-4151-83FA-3AD2201BFDC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF027BC6-267F-4151-83FA-3AD2201BFDC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF027BC6-267F-4151-83FA-3AD2201BFDC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2CEFC39-E270-4E20-AAEB-667BEB82A640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2CEFC39-E270-4E20-AAEB-667BEB82A640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2CEFC39-E270-4E20-AAEB-667BEB82A640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2CEFC39-E270-4E20-AAEB-667BEB82A640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6975F323-883F-4C23-B27F-B1A99DE2D640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6975F323-883F-4C23-B27F-B1A99DE2D640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6975F323-883F-4C23-B27F-B1A99DE2D640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6975F323-883F-4C23-B27F-B1A99DE2D640}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
