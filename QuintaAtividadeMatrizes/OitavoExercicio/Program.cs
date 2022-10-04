@@ -20,11 +20,24 @@ namespace OitavoExercicio {
                 }
             }
 
+
+            Console.WriteLine("\n--------- Ordem Direta ----------");
+            for (int i = 0; i < 4; i++) {
+                for (int j = 0; j < 4; j++) {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write($"[{matriz[i, j]}]");
+                }
+                Console.WriteLine();
+            }
+            Console.ResetColor();
+            Console.WriteLine("\n-------- Ordem Inversa ------------");
+
             for (int i = 3; i >= 0; i--) {
 
-                for (int j = 3 ; j >= 0; i--) {
+                for (int j = 3; j >= 0; j--) {
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write($"[{matriz[i, j]}]");
+                    
                 }
                 Console.WriteLine();
             }
