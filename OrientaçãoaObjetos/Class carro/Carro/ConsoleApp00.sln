@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carro", "Carro.csproj", "{23FFCE00-3D5A-48BC-900E-55F15B6D1E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temperatura", "..\Temperatura\Temperatura.csproj", "{FD0ED015-C503-4D3D-A68A-5537333AEDEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conta", "..\Conta\Conta.csproj", "{278697E2-969C-4646-BF3E-89154D48B477}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23FFCE00-3D5A-48BC-900E-55F15B6D1E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23FFCE00-3D5A-48BC-900E-55F15B6D1E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23FFCE00-3D5A-48BC-900E-55F15B6D1E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23FFCE00-3D5A-48BC-900E-55F15B6D1E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD0ED015-C503-4D3D-A68A-5537333AEDEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0ED015-C503-4D3D-A68A-5537333AEDEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0ED015-C503-4D3D-A68A-5537333AEDEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0ED015-C503-4D3D-A68A-5537333AEDEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{278697E2-969C-4646-BF3E-89154D48B477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278697E2-969C-4646-BF3E-89154D48B477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278697E2-969C-4646-BF3E-89154D48B477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278697E2-969C-4646-BF3E-89154D48B477}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0D1776A-661A-48C4-8E49-0F82DC79B4D3}
+	EndGlobalSection
+EndGlobal
