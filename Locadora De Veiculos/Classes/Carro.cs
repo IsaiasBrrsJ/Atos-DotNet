@@ -12,7 +12,6 @@ namespace Locadora_de_veiculos.Classes {
         private string anoModelo;
         private string nomeModelo;
         private string placa;
-        private string Alugado = "Disponível";
         public Carro(string modelo, string anoModelo, string nomeModelo, string placa) {
 
             this.ID = GeraId();
@@ -22,13 +21,6 @@ namespace Locadora_de_veiculos.Classes {
             this.placa = placa;
         }
 
-        public string getAlugado() {
-            return Alugado;
-        }
-
-        public void setAlugado() {
-            Alugado = "Alugado";
-        }
         private int GeraId() {
             return new Random().Next(0, 1000);
         }
