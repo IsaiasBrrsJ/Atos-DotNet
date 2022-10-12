@@ -7,46 +7,63 @@ using System.Threading.Tasks;
 namespace ExercicioSete.Classes {
     internal class Elevador {
 
-        
-        private int andarAtual = 0;
-        private int totalAndares;
-        private int capacidadeElevador;
-        private int pessoasNoElevador;
+         private int andarAtual;
+         private int totalDeAndares;
+         private int capacidadeElevador;
+         private int qtdPessoasNoElevador;
 
-        public void setSubir(int andarAtual) {
-            this.andarAtual += andarAtual;
-        }
-        public int getAndarAtual() {
-            return andarAtual;
-        }
+        public void Inicializa(int capacidadeElevador, int totalAndares) {
 
-        public void setDescer(int desce) {
-            andarAtual -= desce;
-        }
-
-        public int getPessoasNoElevador() {
-            return pessoasNoElevador;
-        }
-
-        public void setRemoverPessoasElevador(int removerPessoasNoElevador) {
-            pessoasNoElevador -= removerPessoasNoElevador;
-        }
-        public void setPessoasNoElevador(int pessoas) {
-            pessoasNoElevador += pessoas;
-        }
-        public int getTotAndares() {
-            return totalAndares;
-        }
-
-        public void setTotalAndares(int totAndares) {
-            totalAndares = totAndares;
-        }
-        public int getCapacidadeElevador() {
-          return  capacidadeElevador;
-        }
-        public void setCapacidadeElevador(int capacidadeElevador) {
             this.capacidadeElevador = capacidadeElevador;
+            this.totalDeAndares = totalAndares;
         }
 
+        public string Entrar() {
+            if (qtdPessoasNoElevador < 5) {
+                qtdPessoasNoElevador++;
+
+                return "\nEntrou, pesoas no elevador: "+qtdPessoasNoElevador;
+            }
+            else {
+
+                return "\nElevador Cheio";
+            }
+        }
+
+        public string Sair() {
+
+            if (qtdPessoasNoElevador > 0) {
+                qtdPessoasNoElevador--;
+                return "\nSaiu, pesoas no elevador: "+ qtdPessoasNoElevador;
+            }
+            else {
+                return "\nElevador Vazio";
+            }
+        }
+
+        public string Sobe() {
+            if ((andarAtual < totalDeAndares)) {
+                andarAtual++;
+                return "\nSubindo Para: "+ andarAtual;
+            }
+            else {
+                return "\nVc chegou no ultimo andar";
+            }
+        }
+
+        public string Desce() {
+
+            if (andarAtual > 0) {
+                andarAtual--;
+                return "\n Descendo para "+ andarAtual;
+            }
+            else {
+
+                return "\nChegou ao térreo";
+            }
+            
+    
+    
+    
     }
 }
