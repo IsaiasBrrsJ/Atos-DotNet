@@ -17,64 +17,36 @@ namespace ExercicioSete {
               Encapsular todos os atributos da classe (criar os métodos set e get).
              
              */
-
-            Elevador elevador = new Elevador();
-            elevador.setTotalAndares(5);
-            elevador.setCapacidadeElevador(10);
-           
+             Elevador elevador = new Elevador();
+            elevador.Inicializa(4, 5);
 
             do {
+
                 Console.Clear();
-                Console.Write("[1] Entrar\n[2] Sair\n[3] Subir\n[4] Descer\nOpção: ");
-                string opcaoEscolhida = Console.ReadLine();
+                Console.WriteLine("\n[1]-Entrar\n[2]-Sair\n[3]-Subir\n[4]-Descer\n[5]-Finalizar\nOpcao: ");
+                string opc = Console.ReadLine();
 
-                switch (opcaoEscolhida) {
+                switch (opc) {
+
                     case "1":
-                        if (elevador.getPessoasNoElevador() < elevador.getCapacidadeElevador()) {
-                            elevador.setPessoasNoElevador(1);
-                            Console.WriteLine("Pessoas no elevador " + elevador.getPessoasNoElevador());
-                        }
-                        else {
-                            Console.WriteLine("Elevador Cheio");
-                        }
-
+                        Console.WriteLine(elevador.Entrar());
                         break;
-
                     case "2":
-                        if (elevador.getPessoasNoElevador() > 0) {
-                            elevador.setRemoverPessoasElevador(1);
-                            Console.WriteLine("Pessoas no elevador: " + elevador.getPessoasNoElevador());
-                        }
-                        else {
-                            Console.WriteLine("Não há pessoas no elevador");
-                        }
+                        Console.WriteLine(elevador.Sair());
                         break;
-
                     case "3":
-
-                        if (elevador.getAndarAtual() < elevador.getTotAndares()) {
-                            elevador.setSubir(1);
-                            Console.WriteLine("Andar Atual: " + elevador.getAndarAtual());
-                        }
-                        else {
-                            Console.WriteLine("Andar máximo");
-                        }
+                        Console.WriteLine(elevador.Sobe());
                         break;
                     case "4":
-                        if (elevador.getAndarAtual() > 0) {
-                            elevador.setDescer(1);
-                            Console.WriteLine("Andar atual: " + elevador.getAndarAtual());
-                        }
-                        else {
-                            Console.WriteLine("Elevador está no térreo");
-                        }
+                        Console.WriteLine(elevador.Desce());
+                        break;
+                    case "5":
+                        Environment.Exit(0);
                         break;
                     default:
-                      Console.WriteLine("Opção Incorreta");
+                        Console.WriteLine("Opcao Incorreta");
                         break;
                 }
-
-
 
                 Console.ReadKey();
             } while (true);
