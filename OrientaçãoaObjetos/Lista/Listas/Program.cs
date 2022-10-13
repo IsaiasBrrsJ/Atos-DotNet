@@ -41,7 +41,7 @@ namespace Listas
             });
         }
         static void ListaOrdenadaPorNome()
-        {   
+        {   // Sort()
             // ordenando por nome
             Console.WriteLine("Lista Ordenada por Nome");
             pessoas.Sort((p1, p2) =>
