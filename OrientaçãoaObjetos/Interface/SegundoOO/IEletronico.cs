@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SegundoOO
 {
-    interface Eletronico
+    interface IEletronico
     {
         //interface não pode conter atributos;
         //private int _volts;
