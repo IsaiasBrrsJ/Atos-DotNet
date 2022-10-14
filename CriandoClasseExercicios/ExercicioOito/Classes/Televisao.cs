@@ -5,32 +5,43 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ExercicioOito.Classes {
-    internal class Televisao {
+     class Televisao {
 
-         private string nomeCanal;
+        private string nomeCanal;
         private int canal;
-        private int volume;
+        private int volume = 100;
 
-        public Televisao(string nomeCanal, int canal) {
+        private List<Televisao> tv = new List<Televisao>();
+       
+        public Televisao(string nomeCanal, int canal)
+        {
             this.nomeCanal = nomeCanal;
             this.canal = canal;
-            this.volume = 100;
         }
-        public string getNomeCanal() {
-            return nomeCanal;
-        }
-        public int getCanal() {
-            return canal;
-        }
-
-        public int getVolume() {
+        
+        public int getVolume()
+        {
             return volume;
         }
-        public void setDiminuirVolume() {
-            volume = volume -1;
+        public void setAumentaVolume(){
+            volume++;
         }
-        public void setAumentarVolume() {
-            volume = volume + 1;
+        public void setDiminuiVolume(){
+            volume--;
+        }
+
+        public void adcionarCanais(string nomeCanal, int canal)
+        {
+            tv.Add(new(nomeCanal, canal));
+        }
+        public string getNomeCanal(){
+            return nomeCanal;
+        }
+        public int getCanal(){
+            return canal;
+        }
+        public List<Televisao> geTV(){
+            return tv;
         }
 
     }
