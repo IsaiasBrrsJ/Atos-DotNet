@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TerceiroExercicio", "..\Ter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuartoExercicio", "..\QuartoExercicio\QuartoExercicio.csproj", "{7490C58E-F3CF-440F-84F8-50490DC27CF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuintoExercicio", "..\QuintoExercicio\QuintoExercicio.csproj", "{D37C59E2-8762-404E-81DE-8CFD0F700BFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuintoExercicio", "..\QuintoExercicio\QuintoExercicio.csproj", "{D37C59E2-8762-404E-81DE-8CFD0F700BFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SextoExercicio", "..\SextoExercicio\SextoExercicio.csproj", "{75B7200F-0B0C-48DC-9ACF-2D48E73DF0F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SextoExercicio", "..\SextoExercicio\SextoExercicio.csproj", "{75B7200F-0B0C-48DC-9ACF-2D48E73DF0F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetimoExercicio", "..\SetimoExercicio\SetimoExercicio.csproj", "{2FF7163C-E9E0-4E0C-AF8A-1B16150FC75E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{75B7200F-0B0C-48DC-9ACF-2D48E73DF0F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75B7200F-0B0C-48DC-9ACF-2D48E73DF0F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75B7200F-0B0C-48DC-9ACF-2D48E73DF0F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FF7163C-E9E0-4E0C-AF8A-1B16150FC75E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FF7163C-E9E0-4E0C-AF8A-1B16150FC75E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FF7163C-E9E0-4E0C-AF8A-1B16150FC75E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FF7163C-E9E0-4E0C-AF8A-1B16150FC75E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
