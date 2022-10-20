@@ -1,4 +1,4 @@
-## Exercicios :books:
+## **_Exercicios_** :books:
 
 > - [x] 1
 > - [x] 2
