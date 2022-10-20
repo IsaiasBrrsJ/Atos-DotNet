@@ -66,7 +66,7 @@ namespace SextoExercicio
                     }
                     else
                     {
-                        Console.WriteLine("\nFuncionário Cadastrados\n");
+                        Console.WriteLine("\nFuncionários Cadastrados\n");
                         foreach (var item in funcionarios)
                         {
                             Console.WriteLine("Nome Funcionário: " + item.NomeFuncionario);

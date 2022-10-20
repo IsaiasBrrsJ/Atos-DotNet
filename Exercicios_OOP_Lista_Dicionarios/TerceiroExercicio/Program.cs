@@ -62,6 +62,9 @@ namespace TerceiroExercicio
                 Console.WriteLine($"Coordenada X: {item.Posicao_X.ToString("F2")} Coordenada Y: {item.Posicao_Y.ToString("F2")}");
                 cont++;
             }
+
+
+            Console.ReadKey();
         }
     }
 }
