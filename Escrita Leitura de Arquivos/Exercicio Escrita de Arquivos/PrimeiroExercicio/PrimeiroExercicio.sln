@@ -5,9 +5,11 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeiroExercicio", "PrimeiroExercicio.csproj", "{AD87372C-1CB1-4643-8A40-6E01ED25CDC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegundoExercicio", "..\SegundoExercicio\SegundoExercicio.csproj", "{825AAE51-E6A0-414C-BDC5-49CC6DCF8F5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SegundoExercicio", "..\SegundoExercicio\SegundoExercicio.csproj", "{825AAE51-E6A0-414C-BDC5-49CC6DCF8F5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerceiroExercicio", "..\TerceiroExercicio\TerceiroExercicio.csproj", "{6B5E56CD-BC6E-439C-8462-350687B77FDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TerceiroExercicio", "..\TerceiroExercicio\TerceiroExercicio.csproj", "{6B5E56CD-BC6E-439C-8462-350687B77FDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartoExercicio", "..\QuartoExercicio\QuartoExercicio.csproj", "{D3F264A0-B3C6-4711-90C9-17C48E2E77FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{6B5E56CD-BC6E-439C-8462-350687B77FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B5E56CD-BC6E-439C-8462-350687B77FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B5E56CD-BC6E-439C-8462-350687B77FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F264A0-B3C6-4711-90C9-17C48E2E77FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F264A0-B3C6-4711-90C9-17C48E2E77FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F264A0-B3C6-4711-90C9-17C48E2E77FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F264A0-B3C6-4711-90C9-17C48E2E77FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
