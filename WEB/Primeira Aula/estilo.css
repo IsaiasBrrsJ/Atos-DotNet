@@ -1,0 +1,48 @@
+body{
+    background-color: rgba(249, 255, 196, 0.856) !important;
+    background-image: url("./img.jpg");
+    background-repeat: repeat-x; /* repeat-y, repete na vertical, repeat-x repete na horizontal*/
+    background-attachment: fixed;
+}
+
+div{
+    background-color: gray !important;
+}
+
+h1{
+    color: black;
+}
+p{
+    color: aliceblue;
+}
+h2{
+    color: black;
+}
+
+h3{
+    color: black;
+}
+
+h4{
+    color: black;
+}
+h5{
+    color: black;
+}
+h6{
+    color: black;
+}
+
+a{
+    color: red !important;
+}
+
+a:link{
+    color:  cadetblue !important;
+}
+a:visited{
+    color: coral !important;
+}
+a:hover{
+  text-transform: lowercase;
+}
