@@ -39,6 +39,10 @@
 
     </section>
 
+    <div>
+        <!--Separa o conteúdo da página em ordem cronologica -->
+    </div>
+
      <section id="posts"><!-- seções-->
       <article>
         <font> <!-- Adcionado font tamanho fonte na tag P-->
