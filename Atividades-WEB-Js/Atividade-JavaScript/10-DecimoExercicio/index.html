@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decimo exercicio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body bgcolor="black">
+    <header>
+      <center>
+        <h1 style="color: white; font-weight: bold">Cadastro de Clientes</h1>
+      </center>
+      <h1></h1>
+    </header>
+
+    <section>
+      <center>
+        <div
+          style="
+            background-color: blue;
+            width: 30vw;
+            height: 90vh;
+            border-radius: 15px;
+            color: whitesmoke;
+            font-weight: bold;
+            border: 2px solid;
+          "
+        >
+          <form style="padding-top: 30px">
+            <label for="nome">Nome: </label>
+            <input
+              style="padding-bottom: 3px; margin-bottom: 15px"
+              type="text"
+              id="nome"
+            />
+
+            <div style="text-align: center">
+              <label for="pFisica">Pessoa Fisica</label>
+              <input
+                type="radio"
+                id="pFisica"
+                name="formClientes"
+                value="pFisica"
+              />
+              <label for="CNJP">Pessoa Juridica</label>
+              <input
+                type="radio"
+                id="pJuridica"
+                name="formClientes"
+                value="pJuridica"
+              />
+              <div style="margin-top: 20px">
+                <label for="CPF">CPF</label>
+                <input
+                  style="margin-top: 5px; padding: 2px; padding-left: 2px"
+                  type="number"
+                  name="cpf"
+                  id="CPF"
+                  disabled
+                />
+              </div>
+              <div style="margin-top: 20px">
+                <label for="CPF">CNPJ</label>
+                <input
+                  style="margin-top: 5px; padding: 2px; padding-left: 2px"
+                  type="number"
+                  name="cnpj"
+                  id="CNJP"
+                  disabled
+                />
+              </div>
+              <div style="margin-top: 20px">
+                <label for="dtNasc">Data Nascimento</label>
+                <input
+                  style="margin-top: 5px; padding: 2px; padding-left: 2px"
+                  type="date"
+                  name="dtNasc"
+                  id="dtNasc"
+                  disabled
+                />
+              </div>
+              <div style="margin-top: 20px">
+                <label for="endereco">Endereço</label>
+                <input
+                  style="margin-top: 5px; padding: 2px; padding-left: 2px"
+                  type="text"
+                  name="endereco"
+                  id="endereco"
+                />
+              </div>
+              <div style="margin-top: 20px">
+                <label for="cep">CEP</label>
+                <input
+                  style="margin-top: 5px; padding: 2px; padding-left: 2px"
+                  type="number"
+                  name="cep"
+                  id="cep"
+                />
+              </div>
+            </div>
+            <button
+              style="
+                margin-top: 30px;
+                padding: 8px;
+                border-radius: 10px;
+                color: black;
+                font-weight: bold;
+                padding-left: 10px;
+                cursor: pointer;
+              "
+              type="button"
+            >
+              Cadastrar
+            </button>
+          </form>
+        </div>
+      </center>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

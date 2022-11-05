@@ -1,0 +1,49 @@
+
+.div1{
+    background-color: blueviolet;
+    border-radius: 30px;
+    height: 50vh;
+    width: 30vw;
+}
+h1{
+    color: white;
+}
+.form{
+
+  height: calc(100vh - 50vh);
+  
+}
+.label{
+    color: white;
+    font-size: 20px;
+}
+
+#login, #password, #confirmaPassword{ 
+    border: 1px purple;
+    border-radius: 10px;
+    padding: 7px;
+    width: calc(100vw - 73vw);
+    height: calc(100vh - 97vh);
+    font-weight: bold;
+   
+}
+
+body{
+    background-color: rgba(23, 2, 73, 0.884);
+}
+
+button{
+    padding: 10px;
+    border: 1px white;
+    border-radius: 10px;
+    color: black;
+    height: 30px;
+    width: 28vw;
+    cursor: pointer;
+}
+
+footer{
+    padding-top: 30vh;
+    color: white;
+    text-decoration: solid;
+}
