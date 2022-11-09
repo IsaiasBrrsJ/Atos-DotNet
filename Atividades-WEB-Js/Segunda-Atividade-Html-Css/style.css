@@ -1,0 +1,217 @@
+/* Primeiro exercicio */
+.main-container .container-div1{
+    width: 50%;
+    margin-left:10px;
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 6px;
+    border: 2px solid black;
+    background-color: blue;
+}
+
+.main-container .container-div2 {
+    margin-top: 3px;
+    width: 50%;
+    margin-left: 10px;
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 6px;
+    border: 2px solid black;
+    background-color: red;
+}
+.main-container .container-div3 {
+    margin-top: 3px;
+    width: 50%;
+    margin-left: 10px;
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 6px;
+    border: 2px solid black;
+    background-color: green;
+}
+.main-container .container-div4 {
+    margin-top: 3px;
+    width: 50%;
+    margin-left: 10px;
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 6px;
+    border: 2px solid black;
+    background-color: purple;
+}
+/* Fim do primeiro exercicio */
+
+/* Inicio segundo exercicio */
+
+.container {
+    width: 300px;
+    height: 200px;
+    
+    position: relative;
+   margin-left: 10px;
+}
+
+.box {
+    position: absolute;
+    min-width: 30px;
+    top: 0;
+    right: 0px;
+    height: 50px;
+    background-color: purple;
+    
+    
+}
+
+.container p {
+    display: inline-block;
+}
+
+.box2 {
+    position: absolute;
+    
+    bottom: 0;
+    right: 0px;
+    height: 50px;
+    min-width: 30px;
+    background-color:green;
+   
+}
+
+.box3 {
+    background-color: blue;
+    position: absolute;
+    min-width: 30px;
+    top: 0;
+    left: 0px;
+    height: 50px;
+   
+}
+
+.box4 {
+    position: absolute;
+    min-width: 30px;
+    bottom: 0;
+    left: 0px;
+    height: 50px;
+    background-color: red;
+    
+}
+
+/* Fim 2 questao */
+
+
+.container-two {
+    width: 300px;
+    height: 200px;
+
+    position: relative;
+    margin-left: 10px;
+}
+
+.box-2 {
+    position: absolute;
+    min-width: 30px;
+    top: 0;
+    right: 0px;
+    height: 50px;
+    background-color: purple;
+    border-radius: 60%;
+
+}
+
+.container p {
+    display: inline-block;
+}
+
+.box-2-2 {
+    position: absolute;
+
+    bottom: 0;
+    right: 0px;
+    height: 50px;
+    min-width: 30px;
+    background-color: green;
+    border-radius: 60%;
+}
+
+.box-3-3 {
+    background-color: blue;
+    position: absolute;
+    min-width: 30px;
+    top: 0;
+    left: 0px;
+    height: 50px;
+    border-radius: 60%;
+
+}
+
+.box-4-4 {
+    position: absolute;
+    min-width: 30px;
+    bottom: 0;
+    left: 0px;
+    height: 50px;
+    background-color: red;
+    border-radius: 60%;
+}
+
+/* Fim 3 questão */
+
+/* Inicio 4 questao */
+
+.container-three{
+    border: 2px solid green;
+    max-width: 60%;
+    position: relative;
+}
+
+.container-three .item1, .item2, .item3{
+    background-color: gray;
+    margin: 2px 3px 2px 3px;
+    padding: 1px;
+    
+}
+
+.container-three p{
+   
+    padding-left: 20px;
+    color: yellow;
+    position: relative;
+    display: inline-block;
+    top: 15px;
+}
+
+.item2 p:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: gray;
+    margin-left: 20px;
+    
+}
+
+/* Fim quarta questão */
+
+/* Inicio 5 questão */
+
+.container-four{
+    height: 41vh;
+    width: 600px;
+    background-color: gray;
+    position: relative;
+}
+
+.container-four img{
+    width:330px;
+    margin: 6px;
+}
+
+.container-four .texto{
+   position: absolute;
+   
+   top: 0;
+   left: 59%;
+   text-align: justify;
+   color: white;
+   
+}
+
