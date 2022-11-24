@@ -61,6 +61,8 @@ namespace PrimeiroWFADONET
             finally
             {
                 b.fecharConexao();
+                transasction.Dispose();
+
               
             }
 
