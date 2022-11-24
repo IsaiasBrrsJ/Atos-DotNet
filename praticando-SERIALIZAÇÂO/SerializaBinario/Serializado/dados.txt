@@ -1,0 +1,1 @@
+{"nome":"Isaias","sobrenome":"Jesus","endereco":[{"rua":"Daniela","numero":5050,"bairro":"Aponiã","cep":"76824-168","estado":"Rondônia"},{"rua":"Rua dos morrinhos","numero":8850,"bairro":"Arica","cep":"76824-188","estado":"Ariquemes"}]}
