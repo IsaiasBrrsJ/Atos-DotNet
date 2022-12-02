@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarinForm.Calculadora">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Calculadora simples"/>
+            <Entry x:Name="entry_valor"  Keyboard="Numeric"  Placeholder="Informe um número"/>
+            <Button x:Name="button_somar" Text="+"/>
+            <Button x:Name="button_subtrair" Text="-"/>
+            <Button x:Name="button_multiplicar" Text="*"/>
+            <Button x:Name="button_dividir" Text="/"/>
+            <Button x:Name="button_calcular" Text="calcular"/>
+            <Button x:Name="button_limpar" Text="Limpar"/>
+            <Label x:Name="label_resposta"/>
+            <Button x:Name="button_voltar" Text="Voltar"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

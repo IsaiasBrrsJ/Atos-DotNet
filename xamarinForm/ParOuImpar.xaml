@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarinForm.ParOuImpar">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Determina se um número é par ou ímpar!" />
+            <Entry x:Name="entry_valor"  Keyboard="Numeric"  Placeholder="Informe um número"/>
+            <Button x:Name="button_executar" Text="Executar"/>
+            <Label x:Name="label_resposta"/>
+            <Label />
+            <Button x:Name="button_calculadora" Text="Calculadora"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
